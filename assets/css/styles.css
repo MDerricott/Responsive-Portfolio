@@ -1,0 +1,227 @@
+a:link {
+    text-decoration: none;
+    color: #777777;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #777777;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #777777;
+}
+
+a:active {
+    text-decoration: none;
+    color: #777777;
+}
+
+
+header{
+    background-color: #ffffff;
+    border-bottom-color: #cccccc;  
+    width:100%;
+    height: 90px;
+    display: fixed;
+    top:0;
+    overflow: auto;
+    border-bottom: 2px solid #cccccc;
+}   
+
+.main-menu{
+    width: 960px;
+    height: 90px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+.name{
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    line-height: 90px;
+    height: 90px;
+    width: 250px;
+    text-align: center;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+
+.menu{
+    position: relative;
+    top: 30px;
+    width: 350px;
+    line-height: 20px;
+    float: right;
+    color: #777777;
+}
+
+.about, .portfolio, .contact{
+    display: inline-block;
+    width: 110px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.portfolio{
+    border-left: 2px solid #dddddd;
+    border-right: 2px solid #dddddd;
+}
+
+.main-body{
+    border-bottom: 2px solid #dddddd;
+    padding: 20px 0px 80px 0px;
+    background-image: url("../images/tree_bark.png"); 
+    color: #777777;
+    
+}
+
+.about-me{
+    color: #4aaaa5;
+    background-color: #ffffff;
+    height: 75px;
+    width: 920px;
+    margin: 20px 20px;
+    border-bottom: 2px solid #dddddd;
+    position: relative;
+    float: left;
+    line-height: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    
+}
+.main{
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    margin: 0 auto;
+    width:960px;
+    position: relative;
+}
+
+.img{
+    float: left;
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+    margin: 10px 20px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+footer{
+    background-color: #666666;
+    font-size: 10px;
+    position: relative;
+    padding: 20px;
+    border-top: 5px solid #4aaaa5;
+    line-height: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.footerer{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+}
+
+.pro1, .pro2, .pro3, .pro4, .pro5{
+    width: 320px;
+    height: 240px;
+    background-color: #777777;
+    margin: 10px 20px;
+    display: inline-block;
+    border: 1px solid #dddddd; 
+    
+}
+
+
+
+.pro1title, .pro2title,.pro3title, .pro4title, .pro5title {
+    width: 320px;
+    height: 70px;
+    background-color: #4aaaa5;   
+    position: relative;
+    z-index:2;
+    top:-90px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    
+}
+
+.form{  
+    width: 900px;
+    height: 600px;
+    display: inline;
+}
+
+
+.contact-names{
+    
+    margin-left: 20px;
+ 
+}
+
+.contact-emails{ 
+    margin-left: 20px;
+}
+
+.one{
+    height: 40px;
+    width: 915px;
+    margin-bottom: 15px;
+    
+}
+
+.contact-message{
+    height: 150px;
+    width: 640px;  
+    margin-left: 20px;
+    
+}
+
+.two{
+    height: 100px;
+    width: 915px; 
+}
+.submit{
+    
+}
+
+#mess{
+   
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 40px;
+    width: 100px;
+    margin-left: 20px;
+    background-color: #4aaaa5;
+}
+
+.titles{
+    color: #777777;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    
+} 
+
+
