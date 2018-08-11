@@ -224,6 +224,138 @@ footer{
     
 } 
 
+@media only screen and (max-width:980px){
+    body{
+        margin: 0;
+    }
+    header{
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        height: 75px;
+    }
+    
+    .name{
+        width:30%;
+        font-size: 125%;
+        padding: 0;
+        height: 75px;
+        clear: both;
+        text-align: center;
+        overflow: visible;
+        line-height: 75px;
+    }
+    .main-menu{
+        width:100%;
+        /* height:0%; */
+        display: inline-block;
+        /* overflow: auto; */
+        position: fixed; 
+        margin: 0;
+        padding: 0;
+        z-index: 10;
+        top: 0;
+        height: 75px;
+    }
+    .about-me{
+        width: 90%;
+    }
+
+.about, .portfolio,.contact{
+    align-self: center;
+}
+
+    .menu{
+        /* display: flex;
+        align-content:center; */
+        justify-content: right;
+        align-self: right;
+        position: absolute;
+        right: 0%;
+        /* width:50%; */
+        z-index:4;
+        clear: both;
+        background-color: white;
+        padding: 0px;
+      
+    }
+
+  
+    
+
+
+    .main{
+        width: 66%;
+        height: 66%;
+        border: 0px;
+        margin-top: 20px;
+        left: 20px;
+        margin-left: 20px;
+    }
+
+    #me, #metoo{
+        /* width: 200px;
+        height: 200px; */
+    }
+
+    .main-body{
+        position: relative;
+        top: 0x;
+    }
+
+    .pro1, .pro2, .pro3, .pro4, .pro5{
+    
+    /* margin: 0px 0px 10px 20px; */
+    width: 270px;
+    height: 190px;
+    
+    
+    }
+
+
+    img{
+     width:100%;
+     height: 100%; 
+    }
+
+
+     .pro1title, .pro2title,.pro3title, .pro4title, .pro5title{
+        height: 33%;
+        width: 100%;
+    }
+
+
+
+    .one, .two, .contact-message{
+        width: 90%;
+    }
+    .contact-message{
+        width: 95%;
+    }
+
+    #mess{
+        margin: 10px;
+    }
+
+    footer{
+       
+        top:0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width:768px){
     body{
         margin: 0;
@@ -294,6 +426,11 @@ footer{
     .main-body{
         position: relative;
         top: 0x;
+        /* width: 100;
+        height: 100%;
+        border: 0px;
+        margin-top: 20px */
+
     }
 
     .pro1, .pro2, .pro3, .pro4, .pro5{
@@ -392,15 +529,32 @@ footer{
     .main-body{
         position: relative;
         top: 80px;
-    }
 
-    .img, img,.pro1, .pro2, .pro3, .pro4, .pro5,.pro1title, .pro2title,.pro3title, .pro4title, .pro5title{
-    /* display: block; */
-    /* background-color: gray; */
-    /* margin: 10px 20px; */
-    clear: auto;
-    /* display: flex; */
     }
+    .pro1, .pro2, .pro3, .pro4, .pro5{
+    
+        /* margin: 0px 0px 10px 20px; */
+        width: 400px;
+        height: 300px;
+        margin-left: 15px;
+
+        
+        
+        }
+    
+    
+        img{
+         width:125%;
+         height: 125%; 
+        }
+    
+    
+         .pro1title, .pro2title,.pro3title, .pro4title, .pro5title{
+            height: 25%;
+            width: 125%;
+            top: -150px;
+        }
+    
 
     .one, .two, .contact-message{
         width: 90%;
